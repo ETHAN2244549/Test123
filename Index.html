@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Cube Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        { "imports": { "three": "https://unpkg.com" } }
+    </script>
+</head>
+<body>
+    <div id="ui">
+        <div id="scramble">R U R' U' ...</div>
+        <div id="timer">0.00</div>
+        <button id="reset-view">Default View</button>
+    </div>
+    
+    <!-- Load the branches -->
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/timer.js"></script>
+    <script type="module" src="js/input.js"></script>
+</body>
+</html>
